@@ -1,0 +1,44 @@
+{
+  "name": "quadra-component",
+  "version": "0.0.5",
+  "description": "NPM package for quadra karya santosa developer",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Quadra-Karya-Santosa/quadra-components.git"
+  },
+  "homepage": "https://github.com/Quadra-Karya-Santosa/quadra-components",
+  "author": "Dionisius Aditya Octa N",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.1.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^8.5.0",
+    "@types/react": "^17.0.34",
+    "jest-environment-jsdom": "^29.7.0",
+    "react": "^17.0.2",
+    "rollup": "^2.79.2",
+    "rollup-plugin-dts": "^4.2.3",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "tslib": "^2.7.0",
+    "typescript": "^4.4.4"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "dependencies": {
+    "autoprefixer": "^9.8.8",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
+  }
+}
