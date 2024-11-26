@@ -1,6 +1,6 @@
 {
   "name": "quadra-component",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "NPM package for quadra karya santosa developer",
   "scripts": {
     "rollup": "rollup -c"
@@ -12,6 +12,12 @@
   "homepage": "https://github.com/Quadra-Karya-Santosa/quadra-components",
   "author": "Dionisius Aditya Octa N",
   "license": "ISC",
+  "keywords": [
+    "React Table",
+    "Data Table",
+    "Pagination",
+    "SVG Icon"
+  ],
   "devDependencies": {
     "@rollup/plugin-commonjs": "^21.1.0",
     "@rollup/plugin-node-resolve": "^13.3.0",
